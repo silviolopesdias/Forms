@@ -1,0 +1,130 @@
+* { padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    }
+label{
+    color: blue;
+    font-size: 15px;
+}
+.container {
+padding: 15px 50px 50px 50px; 
+border: 4px solid black;
+margin-left: 400px;
+margin-right: 480px;
+background-color: aqua;
+}
+.paragraph {
+    font-size: 30px;
+    color:blue;
+    margin-top: 0;
+    margin-bottom: 20px;
+    text-align: center;
+    display: block;
+    background-color: white;
+}
+input{
+    border: 2px solid purple;
+}
+input:hover{
+    cursor: pointer;
+}
+.name {
+        display: block;
+        
+}
+.input-text{
+display:block;
+margin-bottom: 10px;
+}
+.email{
+    display: block;
+}
+.input-email{
+    display: block;
+    margin-bottom: 10px;
+}
+.age{
+    display: block;
+    }
+    .input-age{
+        display: block;
+        width: 46px;
+        margin-bottom: 10px;
+    }
+    .date{
+        display: block;
+     }
+     .input-date{
+         display: block;
+         margin-bottom: 10px;
+     }
+     .social-midea{
+         display: block;
+     }
+.input-midea{
+    display: block;
+    margin-bottom: 10px;
+}
+.gener{
+    display: block;
+}
+.input-gener{
+    display: block;
+    margin-bottom: 10px;
+}
+.eyes{
+    display: block;
+}
+.input-color{
+    display: block;
+    margin-bottom: 10px;
+}
+.bio{
+    display: block;
+}
+.biograph{
+    display: block;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+.picture{
+    display: block;
+}
+.input-picure{
+    display: block;
+    margin-bottom: 10px;
+    border: none;
+}
+.phone{
+    display: block;
+}
+.input-phone{
+    display: block;
+    margin-bottom: 10px;
+}
+.link{
+    display: block;
+}
+.input-link{
+    display: block;
+    margin-bottom: 10px;
+}
+.password{
+    display: block;
+}
+.input-password{
+    display: block;
+    margin-bottom: 20px;
+}
+button{
+    cursor: pointer;
+}
+button:hover{
+    border-radius: 5px;
+    border: 2px solid red;
+    background-color: aquamarine ;
+    width: 100px;
+    height: 20px;
+    color: green;
+}

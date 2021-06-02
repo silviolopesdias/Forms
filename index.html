@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,700;0,900;1,100;1,400&display=swap"
+        rel="stylesheet">
+
+    <title>Forms</title>
+</head>
+
+<body>
+    <form action="" method="POST" enctype="multipart/form-data">
+
+        <div class="container">
+            <div class="paragraph">
+                <P> Cadastro </P>
+                
+            </div>
+
+
+            <label class="name" for="name"> Nome </label>
+
+            <Input class="input-text" type="text" placeholder="insira seu nome" name=" input-nome" required>
+
+
+            <label class="email" for="email"> Email </label>
+
+            <input class="input-email" type="email" placeholder="insira seu email" name="input-email" required>
+
+            <label class="age" for="age"> Idade </label>
+
+            <input class="input-age" type="number" name="input-age" required>
+
+
+            <label class="date" for="date"> Data de Nascimento </label>
+
+            <input class="input-date" type="date" name="input-date" min="12" required>
+
+
+            <label class="social-midea" for="social-midea"> Redes Sociais </label>
+
+            <div class="input-midea">
+                <input type="checkbox" name="input-instagram" requered> Instagram
+                <input type="checkbox" name="input-facebook" required> Facebook
+                <input type="checkbox" name="input-youtube" required> Youtube
+            </div>
+
+            <label class="gener" for="gener"> Genero </label>
+
+            <div class="input-gener">
+                <input type="radio" name="input-gener" required> Masculino
+                <input type="radio" name="input-gener" required> Feminino
+            </div>
+
+            <label class="eyes" for="eyes-color"> Cor dos olhos </label>
+
+            <input class="input-color" type="color" name="input-eyes" required>
+
+
+            <label class="bio" for="biograph"> Biografia </label>
+
+            <textarea class="biograph" name="biograph" required> </textarea>
+
+
+            <label class="picture" for="perfil-picture"> Foto de Perfil </label>
+
+            <input class="input-picure" type="file" accept="image/*" name="input-picture" required>
+
+
+            <label class="phone" for="phone"> Telefone </label>
+
+            <input class="input-phone" type="tel" name="input-telephone" required>
+
+
+            <label class="link" for="link"> Link Facebook </label>
+
+            <input class="input-link" type="url" name="input-link" required>
+
+
+            <label class="password" for="password"> Senha </label>
+
+            <input class="input-password" type="password" name="input-password" min="6" max="8" required>
+
+
+            <button type="reset" value="my button" name="button-reset"> Limpar </button>
+            <button type="submit" value="my button" name="button-submit"> Enviar Dados </button>
+
+        </div>
+
+    </form>
+
+</body>
+
+</html>
